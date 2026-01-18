@@ -1,36 +1,58 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Lavoro: Job Search and Recruitment Platform
 
-## Getting Started
+**Lavoro** is a cutting-edge web application dedicated to simplifying the job search and recruitment process. By seamlessly connecting job seekers with relevant job opportunities through a sophisticated matching algorithm, Lavoro stands as a beacon for both job seekers and employers.
 
-First, run the development server:
+This repository hosts the **Frontend** source code for the platform. **I was responsible for the development of this frontend application, designing the interface and integrating it with the backend services.**
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Key Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Intuitive User Experience:** A focus on creating a user-friendly environment for all users.
+- **Advanced Matching Algorithm:** Connects candidates with job opportunities that perfectly match their skills and preferences.
+- **Effortless Job Posting:** Employers can swiftly post job vacancies to reach a wide pool of talented individuals.
+- **Dynamic User Profiles:** Job seekers can create comprehensive profiles showcasing their skills, experiences, and job preferences.
+- **Interactive UI:** Engaging interactive elements for a more enjoyable and efficient job search.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Related Repositories
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+The Lavoro platform is built as a distributed system.
 
-## Learn More
+- **[Lavoro Organization](https://github.com/lavoro-jobs):** Central organization containing all microservices.
 
-To learn more about Next.js, take a look at the following resources:
+_Note: To run the full application locally, you may need to spin up the backend services found in the organization link above._
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 💻 Getting Started
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+To run the frontend locally:
 
-## Deploy on Vercel
+1.  **Clone the repository**
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+    ```bash
+    git clone https://github.com/orozg5/lavoro-jobs.git
+    cd frontend
+    ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+2.  **Install dependencies**
+
+    ```bash
+    npm install
+    # or
+    yarn install
+    ```
+
+3.  **Start the development server**
+
+    ```bash
+    npm run start
+    # or
+    yarn start
+    ```
+
+4.  Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+## Contributing
+
+This frontend was developed as part of the Lavoro Jobs platform. If you are interested in contributing to the wider project or seeing the full ecosystem, please visit the [Lavoro Jobs Organization](https://github.com/lavoro-jobs).
+
+## License
+
+Lavoro is licensed under the **MIT License**.
